@@ -16,7 +16,7 @@ public class Collections {
 
 
         String[] words = {"air", "animal", "answer", "area", "bird", "air", "book", "car", "area",
-                "city", "dog", "dog", "dog"};
+                "city", "dog", "dog", "dog", "cat", "color"};
         HashMap<String, Integer> hm = new HashMap<>();
         for (String word : words) {
             Integer count = hm.get(word);
